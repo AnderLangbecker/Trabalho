@@ -1,0 +1,24 @@
+<head>
+Ler frase do teclado e apresentar seus caracteres junto com suas posições<br>
+<title> HTM com JavaScript V2</title>
+
+<body>
+
+
+<script>
+	var frase = window.prompt("Informe a frase desejada: ");
+	document.write("Frase Informada: " + frase + "<br>");
+	for ( var contador = 0; contador < frase.length; ){
+		document.write("<br>Caractere na posição " + contador + " : " + frase.charAt(contador));
+		contador++;
+	}
+	//Pela lógica então para obter o primeiro e ultimo caractere:
+	document.write("<br><br>Primeiro Caractere: " + frase.charAt(0));
+	document.write("<br>Último Caractere: " + frase.charAt(frase.length-1));
+	
+
+</script>
+
+</body>
+
+</head>
