@@ -10,7 +10,7 @@ function App() {
         <label id="name">Anderson Daniel Langbecker</label>
         <label id="intro">Venha conferir meu canal de gameplays e não esqueça de se inscrever, clicar no sininho e deixar aquele like pra fortalecer. Espero que se divirta!!</label>
         
-        <LinkNoobZeira label="NoobZeira 2" link="https://www.youtube.com/channel/UCyFhAk2wJ-9IWTlfQUwzDFQ" />
+        <LinkNoobZeira label="NoobZeira" link="https://www.youtube.com/channel/UCyFhAk2wJ-9IWTlfQUwzDFQ" />
       </header>
     </div>
   );
