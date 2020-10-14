@@ -12,7 +12,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 @RestController
 public class ExempleController {
-    //http://localhost/8080/myendpoint/exemples
+    //http://localhost:8080/myendpoint/exemples
     @RequestMapping(value = "/myendpoint/exemples", method = GET)
     public List<ExempleDTO> listExemples() {
         List<ExempleDTO> list = new ArrayList<>();
@@ -25,13 +25,13 @@ public class ExempleController {
 
     }
 
-    @RequestMapping(value = "/status", method = GET)
+    @RequestMapping(value = "/myendpoint/status", method = GET)
     public String status() {
         return "Rodando";
 
     }
 
-    @RequestMapping(value = "/pessoa", method = GET)
+    @RequestMapping(value = "/myendpoint/pessoa", method = GET)
     public ExempleDTO pessoa() {
         return new ExempleDTO("Anderson", "+5555997269211", "anderlangbecker@gmail.com");
 
